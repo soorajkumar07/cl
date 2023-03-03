@@ -1,0 +1,75 @@
+.App {
+  text-align: center; 
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+
+
+
+}
+.btn {
+
+ /* font-family: inherit; */
+ border: none;
+ /* outline: 1px dotted rgb(37, 37, 37); */
+ outline-offset: -4px;
+ background: hsl(135, 93%, 68%);
+ /* box-shadow: inset -1px -1px #292929, inset 1px 1px #fff, inset -2px -2px rgb(158, 158, 158), inset 2px 2px #ffffff; */
+ box-shadow: 5px 5px #888888;
+ font-size: 10px;
+ text-transform: uppercase;
+ letter-spacing: 2px;
+ padding: 5px 5px;
+ margin-top: 40px;
+ margin-bottom: 1rem;
+};
+
+.butto:active{
+ box-shadow: inset -1px -1px #fff, inset 1px 1px #292929, inset -2px -2px #ffffff, inset 2px 2px rgb(158, 158, 158);
+}
+
+
+ /* margin-top: 10px;
+ margin-bottom: 15rem;
+ background-color: greenyellow;
+ border-radius: .5rem;
+ box-shadow: 10px 5px 10px black; */
+/* } */
+/* .btn:hover{
+ color: black;
+} */
+
+
+.main3{
+ display: flex;
+ flex-direction: column;
+ background-color: lightgray;
+ padding-top: .5rem;
+ width:12rem;
+ height:12rem;
+ margin-left: .5rem;
+ margin-bottom: 3rem;
+ border-radius: .5rem;
+ align-items: center;
+ margin-top: 1rem;
+}
+.text{
+  width: 5rem;
+}
+
+.tableraw th{
+
+background-color: rgb(155, 155, 234);
+font-size: .8rem;
+
+}
+
+.tabraw td {
+
+background-color: darkorange;
+font-size: .8rem;
+padding-top: .05rem;
+
+
+}
+
