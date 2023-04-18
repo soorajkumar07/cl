@@ -13,7 +13,7 @@ function App() {
     let params={
       "MRD":MRDNum
     }
-axios.get("http://localhost:9000/get",{params}).then((Responce) => {
+axios.get("http://10.125.15.52:9000/get",{params}).then((Responce) => {
 
 
 setlist(Responce.data)  
