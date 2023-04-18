@@ -20,7 +20,7 @@ const db=mysql.createConnection({
  user: "fbdro",
   host: "10.125.20.10",
   password: "fbdro",
-  database: "his_db_22022023",
+  database: "his_db_29032023",
 })
 
 
