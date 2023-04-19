@@ -53,7 +53,7 @@ app.get("/get",(req,res)=>{
     left join staff_master sm on hu.user_staff_id=sm.id
     left join department_master dm on sm.dept_id= dm.id
     
-    where ps.patient_id='${req.query.MRD}' and visit_type='ip' and visit_code like(select visit_code from his_db_22022023.bill where patient_id='${req.query.MRD}' and visit_type like 'ip%'  order by visit_code desc limit 1)
+    where ps.patient_id='${req.query.MRD}' and visit_type='ip' and visit_code like(select visit_code from his_db_29032023.bill where patient_id='${req.query.MRD}' and visit_type like 'ip%'  order by visit_code desc limit 1)
     order by ps.visit_id desc`
 
     db.query(querty,(err,result)=>{
