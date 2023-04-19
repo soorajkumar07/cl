@@ -68,7 +68,7 @@ app.get("/get",(req,res)=>{
     inner join speciality_master spm on
     a.speciality_id=spm.id
     where visit_code like(select visit_code from his_db_29032023.visit where patient_id= '${req.query.MRD}' and visit_type like 'ip%'  order by visit_code desc limit 1)
-    and pas.patient_id='${req.query.MRD}'
+    and pas.patient_id='${req.query.MRD}'`
 
     db.query(querty,(err,result)=>{
         if(err){
